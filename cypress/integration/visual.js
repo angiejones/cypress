@@ -9,7 +9,7 @@ describe('Search for books', () => {
         page.navigate() 
         cy.eyesOpen({
             appName: 'Automation Bookstore', 
-            batchName: 'Cypress: Bookstore Search Jan 4',
+            batchName: 'Search',
             browser: [ {name: 'chrome', width: 1024, height: 768} ]
         })
     })
