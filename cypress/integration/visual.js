@@ -18,7 +18,7 @@ describe('Search for books', () => {
 
     it('should return one book with title Agile Testing', () => {
         page.search('Agile Testing', true)
-       cy.eyesCheckWindow()
+        cy.eyesCheckWindow()
     })
 
     it('should return multiple books with title Test', () => {
